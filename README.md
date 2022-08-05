@@ -1,8 +1,8 @@
 # CS 360 Homework 3
 
-Name:  
+Name: Mya Ho  
 
-Drexel Username:  
+Drexel Username:  th888
 
 Put anything else you want us to know here.
 
