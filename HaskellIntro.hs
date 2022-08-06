@@ -50,8 +50,8 @@ sumDigits [] = 0
 sumDigits (x:xs) = sumOfElement x + sumDigits xs
 
 validate :: Integer -> Bool
-validate n  | ((sumDigits(doubleEveryOther(toDigits(dropLastDigit n)))) `mod` 10) == lastDigit n    = True
-            | otherwise                                                                             = False
+validate n  | sumDigits(doubleEveryOther(toDigits n)) `mod` 10 == 0    = True
+            | otherwise                                                = False
 
 --
 -- Problem 2
